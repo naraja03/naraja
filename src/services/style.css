@@ -1,72 +1,107 @@
 /* App Page Style Started */
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Pacifico&family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-.navigation{
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    background-color: black;
-    color: blanchedalmond;
-    padding-left: 0px;
+.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: blanchedalmond;
+  padding-left: 0px;
 }
-.me{
-    background-color: black;
-    text-align: center;
-    color: darkorange; padding-bottom: 20px;
-    font-family: 'Poppins', sans-serif; text-indent: initial;
+.me h2 {
+  background-color: black;
+  text-align: center;
+  color: rgb(184, 184, 184);
+  padding-bottom: 20px;
+  width: 100px;
+  height: 60px;
+  font-family: "Licorice", cursive;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 15px; */
+  color: #92a5de;
+  text-shadow: 0px 0px 0 rgb(137, 156, 213), 1px 1px 0 rgb(129, 148, 205),
+    2px 2px 0 rgb(120, 139, 196), 3px 3px 0 rgb(111, 130, 187),
+    4px 4px 0 rgb(103, 122, 179), 5px 5px 0 rgb(94, 113, 170),
+    6px 6px 0 rgb(85, 104, 161), 7px 7px 0 rgb(76, 95, 152),
+    8px 8px 0 rgb(68, 87, 144), 9px 9px 0 rgb(59, 78, 135),
+    10px 10px 0 rgb(50, 69, 126), 11px 11px 0 rgb(42, 61, 118),
+    12px 12px 0 rgb(33, 52, 109), 13px 13px 0 rgb(24, 43, 100),
+    14px 14px 0 rgb(15, 34, 91), 15px 15px 0 rgb(7, 26, 83),
+    16px 16px 0 rgb(-2, 17, 74), 17px 17px 0 rgb(-11, 8, 65),
+    18px 18px 0 rgb(-19, 0, 57), 19px 19px 0 rgb(-28, -9, 48),
+    20px 20px 0 rgb(-37, -18, 39), 21px 21px 20px rgba(0, 0, 0, 1),
+    21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
-.logo{
-    background: url('../assets/logo.png');
-    /* background-size: cover; */
-    background-size: 70px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100px;
-    height: 100px;
-    padding: 25px;
+.me h2:hover {
+  color: #92a5de;
+  text-shadow: 0px 0px 0 rgb(137, 156, 213), 1px 1px 0 rgb(129, 148, 205),
+    2px 2px 0 rgb(120, 139, 196), 3px 3px 0 rgb(111, 130, 187),
+    4px 4px 0 rgb(103, 122, 179), 5px 5px 0 rgb(94, 113, 170),
+    6px 6px 0 rgb(85, 104, 161), 7px 7px 0 rgb(76, 95, 152),
+    8px 8px 0 rgb(68, 87, 144), 9px 9px 0 rgb(59, 78, 135),
+    10px 10px 0 rgb(50, 69, 126), 11px 11px 0 rgb(42, 61, 118),
+    12px 12px 0 rgb(33, 52, 109), 13px 13px 0 rgb(24, 43, 100),
+    14px 14px 0 rgb(15, 34, 91), 15px 15px 0 rgb(7, 26, 83),
+    16px 16px 0 rgb(-2, 17, 74), 17px 17px 0 rgb(-11, 8, 65),
+    18px 18px 0 rgb(-19, 0, 57), 19px 19px 0 rgb(-28, -9, 48),
+    20px 20px 0 rgb(-37, -18, 39), 21px 21px 20px rgba(0, 0, 0, 1),
+    21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.2);
+  cursor: none;
+  font-size: 60px;
 }
-a{
-    text-decoration: none;
-    color: white;
+.me h6 {
+  text-align: end;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  color: rgb(80, 80, 80);
+  font-family: Cambria;
 }
-.nav_item{
-    padding: 25px;
-    text-align: center;
-    color: rgb(100, 100, 100);
-    background-color: rgb(40, 40, 40);
-    font-family: 'Poppins', sans-serif;
-    border-bottom: rgb(18, 18, 18) 1px solid;
-
-
+a {
+  text-decoration: none;
+  color: white;
 }
-.nav_item:hover{
-    color: cyan;
+.nav_item {
+  padding: 25px;
+  text-align: center;
+  color: rgb(100, 100, 100);
+  background-color: rgb(40, 40, 40);
+  font-family: "Poppins", sans-serif;
+  border-bottom: rgb(18, 18, 18) 1px solid;
 }
-.socialMedia{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    height: 100vh;
-    background-color: rgb(40, 40, 40);
-    color: blue;
+.nav_item:hover {
+  color: cyan;
 }
-.social_link{
-    padding: 10px;
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(40, 40, 40);
+  color: blue;
 }
-.appPage{
-    display: flex;
+.social_link {
+  padding: 10px;
+}
+.appPage {
+  display: flex;
 }
 /* App page style ended */
 
 /* Home Page Style started */
-.homePage{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(18, 18, 18);
+.homePage {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(18, 18, 18);
 }

@@ -1,9 +1,8 @@
 <template>
 <div class="nav">
     <ul class="navigation">
-        <li class="logo"></li>
         <li class="name me">
-            <h4>NaRaja</h4>
+            <h2>Naraja</h2>
         </li>
         <li class="iam me"><h6>Web Developer</h6></li>
         <router-link to="/">
