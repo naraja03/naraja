@@ -1,8 +1,10 @@
 <template>
-  <router-view/>
+<div class="appPage">
   <div id="nav">
     <NavBar />
   </div>
+  <router-view/>
+</div>
 </template>
 
 <script>

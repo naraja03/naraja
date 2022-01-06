@@ -1,3 +1,4 @@
+/* App Page Style Started */
 *{
     margin: 0;
     padding: 0;
@@ -7,25 +8,65 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    width: 150px;
+    width: 100%;
+    height: 100vh;
     margin: 0;
     background-color: black;
     color: blanchedalmond;
-    padding-left: 20px;
+    padding-left: 0px;
 }
-img{
+.me{
+    background-color: black;
+    text-align: center;
+    color: darkorange; padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif; text-indent: initial;
+}
+.logo{
+    background: url('../assets/logo.png');
+    /* background-size: cover; */
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100px;
     height: 100px;
-    padding-left: 0;
+    padding: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .nav_item{
-    padding: 20px;
+    padding: 25px;
+    text-align: center;
+    color: rgb(100, 100, 100);
+    background-color: rgb(40, 40, 40);
+    font-family: 'Poppins', sans-serif;
+    border-bottom: rgb(18, 18, 18) 1px solid;
+
+
+}
+.nav_item:hover{
+    color: cyan;
 }
 .socialMedia{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(40, 40, 40);
+    color: blue;
 }
 .social_link{
-    flex-direction: row;
-    padding: 5px;
-    padding-bottom: 100px;
+    padding: 10px;
+}
+.appPage{
+    display: flex;
+}
+/* App page style ended */
+
+/* Home Page Style started */
+.homePage{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 18, 18);
 }
