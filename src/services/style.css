@@ -170,7 +170,6 @@ a:hover {
 /* About page style ended */
 
 /* Projects Page Style started */
-
 .projectPage{
   width: 100%;
   height: 100vh;
@@ -180,6 +179,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
+
 
 .project_heading{
   font-size: 80px;
