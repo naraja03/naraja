@@ -1,5 +1,6 @@
 /* App Page Style Started */
 @import url("https://fonts.googleapis.com/css2?family=Licorice&family=Pacifico&family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@900&family=Pacifico&family=Poppins&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +74,7 @@ a {
   color: white;
 }
 .nav_item {
-  padding: 25px;
+  padding: 20px;
   text-align: center;
   color: rgb(100, 100, 100);
   background-color: rgb(40, 40, 40);
@@ -103,5 +104,21 @@ a {
 .homePage {
   width: 100%;
   height: 100vh;
+  background: url('../assets/home_bg.svg');
   background-color: rgb(18, 18, 18);
+  background-repeat: no-repeat;
+}
+.home_heading{
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding-top: 150px;
+  padding-left: 180px;
+}
+.home_sub_heading{
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: aqua;
+  padding-top: 75px;
+  padding-left: 180px;
 }

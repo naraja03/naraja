@@ -2,7 +2,7 @@
 <div class="nav">
     <ul class="navigation">
         <li class="name me">
-            <h2>Naraja</h2>
+            <h2>Raja</h2>
         </li>
         <li class="iam me"><h6>Web Developer</h6></li>
         <router-link to="/">
