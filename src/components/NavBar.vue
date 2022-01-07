@@ -2,7 +2,7 @@
 <div class="nav">
     <ul class="navigation">
         <li class="name me">
-            <h2>naRaja</h2>
+            <router-link to="/"><h2>naRaja</h2></router-link>
         </li>
         <li class="iam me"><h6>Web Developer</h6></li>
         
@@ -19,6 +19,8 @@
         
         
         <li class="contactUs nav_item"><router-link to="/">CONTACT US</router-link></li>
+
+        <li class="logOut nav_item" @click="logout">LOGOUT</li>
         
         <li class="socialMedia">
             <div class="social_link">Linkdin</div>
@@ -28,3 +30,33 @@
     </ul>
 </div>
 </template>
+
+<script>
+import { ref, onBeforeMount } from 'vue';
+import firebase from 'firebase/compat/app';
+require('firebase/compat/auth')
+export default {
+	setup() {
+		const name = ref("");
+		onBeforeMount(()=>{
+			const user = firebase.auth().currentUser;
+			if(user){
+				name.value = user.email.split('@')[0];
+				console.log(name.value);
+			}
+		})
+		const Logout = ()=> {
+			console.log(firebase.auth().currentUser);
+			firebase
+				.auth()
+				.signOut()
+				.then(console.log("You Are Successfully LoggedOut"))
+				.catch(err => alert(err.message))
+		}
+		return{
+			name,
+			Logout,
+		}
+	},
+}
+</script>
