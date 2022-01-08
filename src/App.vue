@@ -1,7 +1,7 @@
 <template>
 <div class="appPage">
   <div id="nav">
-    <NavBar v-if='this.$route.path !== "/login" && this.$route.path !== "/register"' />
+    <NavBar v-if='this.$route.path !== "/signin" && this.$route.path !== "/signup"' />
   </div>
   <router-view/>
 </div>
@@ -26,8 +26,8 @@ export default {
     onBeforeMount(()=>{
       firebase.auth().onAuthStateChanged((user) => {
         if(!user){
-          router.replace('/login');
-        } else if(route.path=='/login' || route.path=='/register'){
+          router.replace('/signin');
+        } else if(route.path=='/signin' || route.path=='/signup'){
           router.replace('/');
         }
       });

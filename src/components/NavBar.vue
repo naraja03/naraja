@@ -20,7 +20,7 @@
         
         <li class="contactUs nav_item"><router-link to="/">CONTACT US</router-link></li>
 
-        <li class="logOut nav_item" @click="logout">LOGOUT</li>
+        <li class="logOut nav_item" @click="Logout">LOGOUT</li>
         
         <li class="socialMedia">
             <div class="social_link">Linkdin</div>

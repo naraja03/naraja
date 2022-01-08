@@ -9,12 +9,12 @@ const routes = [
     component: Home
   },
   {
-    path: '/login',
+    path: '/signin',
     name: 'Login',
     component: ()=> import('../components/Login.vue')
   },  
   {
-    path: '/register',
+    path: '/signup',
     name: 'Register',
     component: ()=> import('../components/Register.vue')
   },  

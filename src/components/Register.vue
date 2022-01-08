@@ -1,8 +1,9 @@
 <template>
-  <div class="register">
-    <h1>REGISTER PAGE</h1>
+<div class="authPage">
+  <div class="auth">
+    <h1>SIGN UP</h1>
 
-    <form class="login" @submit.prevent="register">
+    <form class="authForm" @submit.prevent="register">
       <input
         type="text"
         name="email"
@@ -11,7 +12,6 @@
         placeholder="Mail"
         v-model="email"
       />
-      <br />
       <input
         type="password"
         name="email"
@@ -20,13 +20,13 @@
         placeholder="PassWord"
         v-model="password"
       />
-      <br />
       <input type="submit" value="Register" />
     </form>
-    <div>
-      Have Account <router-link to="/login">Login</router-link>
+    <div class="authButton">
+      Have Account <router-link to="/signin">SignIn</router-link>
     </div>
   </div>
+</div>
 </template>
 
 <script>
