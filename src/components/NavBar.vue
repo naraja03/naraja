@@ -23,7 +23,7 @@
         <li class="logOut nav_item" @click="Logout">LOGOUT</li>
         
         <li class="socialMedia">
-            <div class="social_link"> <a href="https://www.linkedin.com/naraja03"> Linkdin</a></div>
+            <div class="social_link"> <a href="https://www.linkedin.com/in/naraja03/"> Linkdin</a></div>
             <div class="social_link"><a href="https://github.com/naraja03"> GitHub</a></div>
             <div class="social_link"><a href="https://www.twitter.com/naraja03_"> Twitter</a></div>
         </li>
