@@ -1,6 +1,7 @@
 /* App Page Style Started */
 @import url("https://fonts.googleapis.com/css2?family=Licorice&family=Pacifico&family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@900&family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 * {
   margin: 0;
   padding: 0;
@@ -73,7 +74,8 @@
 }
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(90, 90, 90);
+  font-weight: bolder;
 }
 .nav_item {
   padding: 15px 23px;
@@ -223,27 +225,22 @@ a:hover, .logOut:hover {
 }
 .project{
   padding: 50px;
-  color: #92a5de;
-  text-shadow: 0px 0px 0 rgb(137, 156, 213), 1px 1px 0 rgb(129, 148, 205),
-    2px 2px 0 rgb(120, 139, 196), 3px 3px 0 rgb(111, 130, 187),
-    4px 4px 0 rgb(103, 122, 179), 5px 5px 0 rgb(94, 113, 170),
-    6px 6px 0 rgb(85, 104, 161), 7px 7px 0 rgb(76, 95, 152),
-    8px 8px 0 rgb(68, 87, 144), 9px 9px 0 rgb(59, 78, 135),
-    10px 10px 0 rgb(50, 69, 126), 11px 11px 0 rgb(42, 61, 118),
-    12px 12px 0 rgb(33, 52, 109), 13px 13px 0 rgb(24, 43, 100),
-    14px 14px 0 rgb(15, 34, 91), 15px 15px 0 rgb(7, 26, 83),
-    16px 16px 0 rgb(-2, 17, 74), 17px 17px 0 rgb(-11, 8, 65),
-    18px 18px 0 rgb(-19, 0, 57), 19px 19px 0 rgb(-28, -9, 48),
-    20px 20px 0 rgb(-37, -18, 39), 21px 21px 20px rgba(0, 0, 0, 1),
-    21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.2);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
   background-color: black;
   margin: 10px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   font-size: 25px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bolder;
@@ -269,7 +266,6 @@ a:hover, .logOut:hover {
   background-color: #92a5de23;
   width: 400px;
   height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 .auth h1{

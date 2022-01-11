@@ -7,10 +7,18 @@
       <div class="advanced navItems"><h4>Advanced</h4></div>
     </div>
     <div class="projects">
-      <div class="project">CountDown</div>
-      <div class="project">ToDo</div>
-      <div class="project">Calculator</div>
-      <div class="project">WeatherApp</div>
+      <router-link to="/countdown">
+      <div class="project txt">COUNTDOWN</div>
+      </router-link>
+      <router-link to="/todo">
+      <div class="project txt">TODO</div>
+      </router-link>
+      <router-link to="/calculator">
+      <div class="project txt">CALCULATOR</div>
+      </router-link>
+      <router-link to="/weather">
+      <div class="project txt">WEATHER</div>
+      </router-link>
     </div>
   </div>
 </template>
