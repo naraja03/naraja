@@ -2,6 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Licorice&family=Pacifico&family=Poppins&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@900&family=Pacifico&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
 * {
   margin: 0;
   padding: 0;
@@ -125,21 +127,27 @@ a:hover, .logOut:hover {
 }
 .home_heading{
   font-size: 80px;
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   /* color: #92a5de; */
   padding-top: 150px;
   padding-left: 180px;
   color: rgba(255,255,255,.3);
   text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    font-family: 'Abril Fatface', cursive;
+  color: white;
+  font-weight: bold;
+  mix-blend-mode: multiply;
+  text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
 }
+
 .home_sub_heading{
   font-family: Arial, sans-serif;
   font-size: 30px;
   color: aqua;
-  padding-top: 78px;
+  padding-top: 65px;
   padding-left: 180px;
 }
-.animated {
+/* .animated {
   animation-duration: 2s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
@@ -154,7 +162,7 @@ a:hover, .logOut:hover {
 
 .bounce {
   animation-name: bounce;
-}
+} */
 /* Home page style ended */
 
 /* About Page Style started */
