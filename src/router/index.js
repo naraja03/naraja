@@ -24,16 +24,6 @@ const routes = [
     component: ()=> import('../components/CreateProject.vue')
   },  
   {
-    path: '/calculator',
-    name: 'Calculator',
-    component: ()=> import('../components/Calculator.vue')
-  },  
-  {
-    path: '/todo',
-    name: 'Todo',
-    component: ()=> import('../components/Todo.vue')
-  },  
-  {
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')
