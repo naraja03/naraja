@@ -7,10 +7,11 @@
       <div class="advanced navItems"><h4>Advanced</h4></div>
     </div>
     <div class="projects">
-      <a href="https://naraja-calculator.netlify.app">Calculator</a>
-      <a href="https://naraja-todo.netlify.app">Todo</a>
-      <a href="https://naraja-weather.netlify.app">Weather</a>
-      <a href="https://naraja-countdown.netlify.app">Countdown</a>
+      
+      <a class="links" href="https://naraja-calculator.netlify.app">Calculator</a>
+      <a class="links" href="https://naraja-todo.netlify.app">Todo</a>
+      <a class="links" href="https://naraja-weather.netlify.app">Weather</a>
+      <a class="links" href="https://naraja-countdown.netlify.app">Countdown</a>
 
     </div>
   </div>
