@@ -127,11 +127,10 @@ a:hover, .logOut:hover {
 }
 .home_heading{
   font-size: 80px;
-  /* font-family: 'Montserrat', sans-serif; */
-  /* color: #92a5de; */
+  font-family: 'Montserrat', sans-serif;
+  color: #92a5de;
   padding-top: 150px;
   padding-left: 180px;
-  color: rgba(255,255,255,.3);
   text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
     font-family: 'Abril Fatface', cursive;
   color: white;
