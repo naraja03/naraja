@@ -131,6 +131,7 @@ a:hover, .logOut:hover {
     font-family: 'Abril Fatface', cursive;
   color: 3c3c3c;
   font-weight: bold;
+  font-size: calc(3.375rem + 2vw);
   text-shadow: 5px 4px 11px rgb(0,0,0), 0 2px 5px rgb(0,0,0);
 }
 
